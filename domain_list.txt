@@ -9057,6 +9057,7 @@ analytics.hr-software-auswahl.de
 analytics.hr.nl
 analytics.hrc.by
 analytics.hrc.org
+analytics.hrfee.dev
 analytics.hrsantos.com.br
 analytics.hrst.us
 analytics.hrsymphony.com
@@ -21913,6 +21914,7 @@ collect.cap.ch
 collect.chaordicsystems.com
 collect.cityfit.pl
 collect.climease.com
+collect.clogauoutlet.co.uk
 collect.cottona.com
 collect.ddiu.io
 collect.declan.nl
@@ -22047,6 +22049,7 @@ collector.dnalworld.pics
 collector.ewleworld.rest
 collector.ex.co
 collector.faphouse.com
+collector.faphouse.tv
 collector.fcxh.xyz
 collector.fiverr.com
 collector.fraudmap.net
@@ -22103,6 +22106,7 @@ collector.rocketmiles.com
 collector.scopely.io
 collector.seexh1.com
 collector.seranking.com
+collector.showxh.life
 collector.skullcandy.com
 collector.solarwinds.com
 collector.sst.lamp24.se
@@ -22132,6 +22136,7 @@ collector.ucynet.lat
 collector.universalxh.site
 collector.unlockxh4.com
 collector.unsplash.com
+collector.usbxh.life
 collector.usxh.world
 collector.vas.pet
 collector.vhx.tv
@@ -22160,6 +22165,7 @@ collector.xhcontent.com
 collector.xhcopy.life
 collector.xhday1.com
 collector.xhday2.com
+collector.xhengineering.site
 collector.xhfarms.life
 collector.xhfire.world
 collector.xhgold.world
@@ -22173,6 +22179,7 @@ collector.xhmoon3.com
 collector.xhmy.life
 collector.xhname2.com
 collector.xhnature.world
+collector.xhoz.world
 collector.xhpage.life
 collector.xhpick.life
 collector.xhprinter.site
@@ -22195,6 +22202,7 @@ collector.xhwe.life
 collector.xhxchange.life
 collector.xjxnworld.lol
 collector.xrskworld.beauty
+collector.zaxh.life
 collector.zum.com
 collector1.afreecatv.com
 collectorapi.com
@@ -29467,6 +29475,7 @@ e.e.papermart.com
 e.e.snipesusa.com
 e.e.wtso.com
 e.e.ykso.co
+e.e.zagg.com
 e.e4.llbean.com
 e.em.abercrombie.com
 e.em.coldwatercreek.com
@@ -30535,9 +30544,6 @@ espresso-pa.clients6.google.com
 esprima.org
 esprssmrtn.com
 esriaustralia.com.au
-ess-apple.com.akadns.net
-ess.apple.com
-ess.apple.com.akadns.net
 essay.one
 essen.essentia-bd.com
 essentia-analytics.com
@@ -33732,8 +33738,6 @@ gs.glamscape.com.bd
 gs.oishanisarees.com
 gs1.wac.edgecastcdn.net
 gsagz.wonsulting.com
-gsas.apple.com
-gsas.apple.com.akadns.net
 gscounters.eu1.gigya.com
 gscounters.us1.gigya.com
 gsd.cbdsfinest.de
@@ -47827,6 +47831,7 @@ matomo.gptocean.com
 matomo.grafschafter-breitband.de
 matomo.grainedutopie.eu
 matomo.grandcentrix.net
+matomo.granicus.com
 matomo.graphhopper.com
 matomo.greenbone.net
 matomo.greenmeister.nl
@@ -53958,6 +53963,7 @@ mi-eu.adidas.com
 mi.musaphah.com
 mi.nextemail.co.uk
 mi.reyes.dev
+mi.ufc.com
 mi.ulta.com
 mi76ers.nba.com
 miaozhen.com
@@ -58771,6 +58777,7 @@ mp-data.gofundme.com
 mp-mta3.in
 mp-newmedia.com
 mp-nserv-812.top
+mp-us1.mcdonalds.com
 mp.cwtv.com
 mp.hrblock.com
 mp.paleovalley.com
@@ -70569,6 +70576,7 @@ r.promotion.aivp.org
 r.questdiagnostics.com.mx
 r.road1.teamaxe.fr
 r.routage10.arenametrix.fr
+r.routage5.arenametrix.fr
 r.routage8.arenametrix.fr
 r.saguenay.inkamkt.com
 r.sales.attorneycreditsmail.com
@@ -70586,6 +70594,7 @@ r.search.yahoo.com
 r.secretariat.sophrologie-formation.fr
 r.seminariummail.com
 r.send.artmajeur.com
+r.send.fondazionecampaniadeifestival.it
 r.send.gay-sejour.com
 r.send.ipsnet.it
 r.send.pbvdirectory.com
@@ -70625,6 +70634,7 @@ r.sib.foundmyfitness.com
 r.sib.fr.fcm.travel
 r.sib.grand-mercredi.com
 r.sib.greensock.com
+r.sib.lmc.eu
 r.sib.locale.co.uk
 r.sib.lydia-app.com
 r.sib.net-helium.com
@@ -70634,6 +70644,7 @@ r.sib.tennispro.fr
 r.sib.theleader.info
 r.sib.thresholdmortgages.com
 r.sib.wedonthavetime.org
+r.sib.wikimedia.fr
 r.sib1.thedeal.com
 r.sib2.gardrops.com
 r.sib2.thedeal.com
@@ -103396,6 +103407,7 @@ t.moliera2.com
 t.mortgageprotectionnow.com
 t.mowersdirect.com
 t.mybrilliant.app
+t.myfitcoach.app
 t.myspeakingscore.com
 t.myvisitors.se
 t.nau.ch
@@ -104039,10 +104051,12 @@ tags.kavkazr.com
 tags.klove.com
 tags.kmart.com.au
 tags.krymr.com
+tags.lampsplus.com
 tags.learnwithtutoria.com
 tags.lifeworksadvisors.com
 tags.maghrebvoices.com
 tags.mainova.de
+tags.marketwatch.com
 tags.martinoticias.com
 tags.mashaalradio.com
 tags.mattressfirm.com
