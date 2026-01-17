@@ -2,39 +2,51 @@ name: Update ShadowWhisperer Tracking List
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天午夜触发
-  workflow_dispatch:   # 支持手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-rules:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Download ShadowWhisperer filter list
-      run: |
-        curl -o filter.txt https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_69_ShadowWhispererTrackingList/filter.txt
+      - name: Download ShadowWhisperer filter list
+        run: |
+          curl -fsSL \
+            https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/general/filter_69_ShadowWhispererTrackingList/filter.txt \
+            -o filter.txt
 
-    - name: Extract domains from the filter list
-      run: |
-        # 提取以 || 开头的域名
-        grep -Eo '([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})' filter.txt | sort | uniq > domain_list.txt
+      - name: Extract domains from the filter list
+        run: |
+          grep -Eo '([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})' filter.txt \
+            | sort -u \
+            > domain_list.txt || true
 
-    - name: Generate domain_list.json for sing-box
-      run: |
-        # 使用 jq 格式化 JSON 输出
-        domains=$(cat domain_list.txt | jq -R . | jq -s .)
-        json_content="{\"version\": 3, \"rules\": [{\"domain_suffix\": $domains}]}"
+      - name: Generate domain_list.json for sing-box
+        run: |
+          jq -R . domain_list.txt | jq -s '{
+            version: 3,
+            rules: [
+              { domain_suffix: . }
+            ]
+          }' > domain_list.json
 
-        # 格式化输出 JSON 到文件
-        echo "$json_content" | jq . > domain_list.json
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
-    - name: Commit and push changes
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add domain_list.txt domain_list.json
-        git commit -m "Update ShadowWhisperer Tracking List domain list and JSON"
-        git push
+          # 关键修复：删除中间文件，避免 untracked 导致 commit 失败
+          rm -f filter.txt
+
+          git add domain_list.txt domain_list.json
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update ShadowWhisperer Tracking List ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
